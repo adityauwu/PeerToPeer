@@ -6,17 +6,20 @@
 CPP_SRCS += \
 ../src/P2Pmain.cpp \
 ../src/PeerReceiver.cpp \
-../src/PeerSender.cpp 
+../src/PeerSender.cpp \
+../src/logger.cpp
 
 OBJS += \
 ./src/P2Pmain.o \
 ./src/PeerReceiver.o \
-./src/PeerSender.o 
+./src/PeerSender.o \
+./src/logger.o
 
 CPP_DEPS += \
 ./src/P2Pmain.d \
 ./src/PeerReceiver.d \
-./src/PeerSender.d 
+./src/PeerSender.d \
+./src/logger.d
 
 
 # Each subdirectory must supply rules for building sources it contributes
